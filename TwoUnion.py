@@ -40,4 +40,3 @@ n2 = len(b)
 # Function call
 getUnion(a, n1, b, n2)
 
-# This code is contributed by Aarti_Rathi
