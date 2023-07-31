@@ -1,5 +1,6 @@
 
 # arr2[0..m-1] contain same elements.
+'''
 def areEqual(arr1, arr2, N, M):
 
 	# If lengths of array are not
@@ -31,6 +32,13 @@ if __name__ == "__main__":
 		print("Yes")
 	else:
 		print("No")
-
+'''
+def check(self,A,B,N):
+        
+        #return: True or False
+        
+        if sorted(A) == sorted(B):
+            return 1
+        return 0
  
  
