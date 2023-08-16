@@ -20,5 +20,3 @@ def isPrime(n):
 # Driver Program to test above function
 print("true") if isPrime(11) else print("false")
 print("true") if isPrime(14) else print("false")
-
-# This code is contributed by Smitha Dinesh Semwal

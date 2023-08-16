@@ -27,3 +27,6 @@ if __name__ == "__main__":
     # Function calls
     print("Yes" if isPowerOfTwo(31) else "No")
     print("Yes" if isPowerOfTwo(16) else "No")
+    '''
+    https://www.geeksforgeeks.org/program-to-find-whether-a-given-number-is-power-of-2/
+    '''
