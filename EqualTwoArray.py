@@ -12,7 +12,4 @@ c = [4, 5, 6, 4, 5, 6]
 
 print(arrays_equal(a, b)) # True
 print(arrays_equal(a, c)) # False
-
-# This code is contributed by Susobhan Akhuli
- 
  
