@@ -26,3 +26,18 @@ if __name__ == "__main__":
 		print("Element is not present in array")
 	else:
 		print("Element is present at index", result)
+
+def search_rotated_array(arr, key):
+    n = len(arr)
+    for i in range(n):
+        if arr[i] == key:
+            return i
+    return -1
+ 
+arr = [5, 6, 7, 8, 9, 10, 1, 2, 3]
+key = 3
+index = search_rotated_array(arr, key)
+if index != -1:
+    print(f"Found at index {index}")
+else:
+    print("Not found")

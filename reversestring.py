@@ -11,3 +11,18 @@ print(s)
 
 print("The reversed string(using loops) is : ", end="")
 print(reverse(s))
+
+'''
+# Driver Code
+if __name__ == '__main__':
+	str = "geeksforgeeks" # Input String
+
+	# Step 1: Initialise an object of StringBuffer class
+	sb = str[::-1]
+
+	# Step 2: Invoke the .reverse() method (not applicable in Python)
+
+	# Step 3: Print the reversed string
+	print(sb)
+
+'''
