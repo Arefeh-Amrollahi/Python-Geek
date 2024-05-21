@@ -1,30 +1,40 @@
-# Python3 code for the approach
+# Python3 program to Find the two
+# repeating elements in a given array
 
-# Function to find the index of first repeating element in an array
-def firstRepeatingElement(arr, n):
-# Nested loop to check for repeating elements
-    for i in range(n):
-	    for j in range(i+1, n):
-	# If a repeating element is found, return its index
-		if arr[i] == arr[j]:
-	return i
-	
-# If no repeating element is found, return -1
-return -1
+
+def printRepeating(arr, size):
+
+	print("Repeating elements are", end=' ')
+	for i in range(0, size-1):
+		for j in range(i + 1, size):
+			if arr[i] == arr[j]:
+				print(arr[i], end=' ')
+
 
 # Driver code
-if __name__ == '__main__':
-# Initializing an array and its size
-	arr = [10, 5, 3, 4, 3, 5, 6]
-	n = len(arr)
+arr = [4, 2, 4, 5, 2, 3, 1]
+arr_size = len(arr)
+printRepeating(arr, arr_size)
 
-# Finding the index of first repeating element
-index = firstRepeatingElement(arr, n)
+# This code is contributed by Smitha Dinesh Semwal
+# Python3 code for Find the two repeating
+# elements in a given array
 
-# Checking if any repeating element is found or not
-if index == -1:
-	print("No repeating element found!")
-else:
-	# Printing the first repeating element and its index
-print("First repeating element is", arr[index])
 
+# def printRepeating(arr, size):
+# 	count = [0] * size
+# 	print(" Repeating elements are ", end="")
+# 	for i in range(0, size):
+# 		if(count[arr[i]] == 1):
+# 			print(arr[i], end=" ")
+# 		else:
+# 			count[arr[i]] = count[arr[i]] + 1
+
+
+# # Driver code
+# arr = [4, 2, 4, 5, 2, 3, 1]
+# arr_size = len(arr)
+# printRepeating(arr, arr_size)
+
+
+# This code is contributed by Nikita Tiwari.
